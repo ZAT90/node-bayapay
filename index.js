@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 // sample scooter data
 // In a real application, this would come from a database
-const scooters = [
+const vehicles = [
     {
       id: 123456,
       type: 'Scooter',
@@ -58,8 +58,8 @@ const scooters = [
 // Define the endpoint to get all the scooters
 // The request object contains information about the http request to trigger this scooters endpoint
 // the response object is used to send a response back upon http request from client side
-app.get("/api/scooters", (req, res, next) => {
-    res.json(scooters);
+app.get("/api/vehicles", (req, res, next) => {
+    res.json(vehicles);
 });
 
 // Starting the server
