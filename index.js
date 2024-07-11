@@ -10,7 +10,7 @@ const scooters = [
       currentSpeed: 5,
       battery: 100,
       status: 'Parking',
-      location: '3.14,0.12',
+      location: '3.142,.012',
       lastUpdated: '2019-07-02 9:00AM'
     },
     {
@@ -19,9 +19,9 @@ const scooters = [
       isLocked: false,
       currentSpeed: 5,
       battery: 50,
-      status: 'Parking',
-      location: '3.14,0.12',
-      lastUpdated: '2019-07-02 9:00AM'
+      status: 'Moving',
+      location: '2.125,114',
+      lastUpdated: '2019-07-02 10:00AM'
     },
     {
       id: 345678,
@@ -29,9 +29,9 @@ const scooters = [
       isLocked: true,
       currentSpeed: 5,
       battery: 100,
-      status: 'Parking',
-      location: '3.14,0.12',
-      lastUpdated: '2019-07-02 9:00AM'
+      status: 'Idling',
+      location: '4.125,114',
+      lastUpdated: '2019-07-02 10:00AM'
     },
     {
       id: 466789,
@@ -39,9 +39,9 @@ const scooters = [
       isLocked: true,
       currentSpeed: 5,
       battery: 75,
-      status: 'Parking',
-      location: '3.14,0.12',
-      lastUpdated: '2019-07-02 9:00AM'
+      status: 'Towing',
+      location: '5.125,114',
+      lastUpdated: '2019-07-02 10:00AM'
     },
     {
       id: 789432,
@@ -49,9 +49,9 @@ const scooters = [
       isLocked: true,
       currentSpeed: 5,
       battery: 0,
-      status: 'Parking',
-      location: '3.14,0.12',
-      lastUpdated: '2019-07-02 9:00AM'
+      status: 'Towing',
+      location: '5.125,114',
+      lastUpdated: '2019-07-02 10:00AM'
     }
   ];
   
